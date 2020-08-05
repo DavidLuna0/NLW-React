@@ -1,7 +1,7 @@
 import React from 'react';
 
-import LogoImg from '../../assets/images/logo.svg'
-import LandingImg from '../../assets/images/landing.svg'
+import logoImg from '../../assets/images/logo.svg'
+import landingImg from '../../assets/images/landing.svg'
 
 import studyIcon from '../../assets/images/icons/study.svg'
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg'
@@ -14,12 +14,12 @@ function Landing() {
         <div id="page-landing">
             <div id="page-landing-content" className="container">
                 <div className="logo-container">
-                    <img src={LogoImg} alt="Proffy" />
+                    <img src={logoImg} alt="Proffy" />
                     <h2>Sua plataforma de estudos online</h2>
                 </div>
 
                 <img
-                    src={LandingImg}
+                    src={landingImg}
                     alt="Plataforma de estudos"
                     className="hero-image"
                 />
